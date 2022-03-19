@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+@font-face{
+    font-family: 'Raleway', sans-serif;
+}
+*{
+    font-family: 'Raleway', sans-serif;
+}
+/* menu part css start */
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-light .navbar-toggler {
+	color: #ffffff;
+    background-color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+    text-align: center;
+    background-color: rgb(13, 15, 15);
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #11eed8;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color: #E45826
+}
+.navbar{
+    position: fixed;
+    width:100%;
+    z-index: 1000;
+}
+.nav-item a{
+    text-transform: uppercase;
+}
+.nav-bg{
+    background-color:#7a6b7b;
+}
+.navbar{
+    transition: 1s all ease; 
+ }
+/* menu part css end */
+
+/* banner part css start */
+#banner-part{
+    padding: 200px 0;
+    background-color: #796b7b;
+    background-image: linear-gradient(43deg, #796b7b 0%, #32697d 46%, #7a6b7b 100%);
+}
+.banner-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.banner-text p{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* banner part css end */
+
+/* about-part css start */
+#about-part{
+    padding: 80px 0 0 0;
+}
+.about-content{
+    padding-top: 40px;
+}
+.about-content h3{
+    font-size: 18px;
+    font-weight: 700; 
+    padding-bottom: 20px; 
+}
+.about-content p{
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+}
+.btn-custom{
+    padding: 10px 35px;
+    border: 1px solid #ff2b4a;
+    background-color: #ff2b4a;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 35px;
+}
+.btn-custom:hover{
+    border: 1px solid #ff2b4a;
+    background-color: transparent;
+    font-weight: 600;
+}
+.btn-check:focus + .btn, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+/* about-part css end */
+
+/* work part css start */
+#work-part{
+    padding: 80px 0;
+    background-color: #f6f6f6; 
+}
+.work-content h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.work-common{
+    color: #ffffff;
+}
+.work1{
+    background-color: #10c6fc;
+    width: 250px;
+    height: 220px;
+}
+.work2{
+    background-color: #835aeb;
+    width: 250px;
+    height: 220px;
+}
+.work3{
+    background-color: #002453;
+    width: 250px;
+    height: 220px;
+}
+.work4{
+    background-color: #ff2b4a;
+    width: 250px;
+    height: 220px;
+}
+.work-content p{
+    font-size: 16px;
+}   
+.work-common .icon{
+    font-size: 40px;
+    padding-top: 80px;
+}
+.work-common p{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+/* work part css end */
+
+/* Education part css start */
+#education-part{
+    padding: 80px 0;
+    color: #ffffff;
+    background-color: #796b7b;
+    background-image: linear-gradient(43deg, #796b7b 0%, #32697d 46%, #7a6b7b 100%);
+}
+.experience{
+    background-color: #53657d;
+    padding: 40px 30px;
+}
+.experience h1{
+    font-size: 26px;
+    padding-bottom: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.experience h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+.experience p{
+    font-size: 16px;
+    color: #a9b2be;
+    text-align: justify;
+}
+.hr-custom{
+    margin: 30px 0;
+}
+/* Education part css end */
+
+/* leatest work part css start */
+#leatest-work-part{
+    padding: 80px 0;
+    background-color: #f6f6f6;
+    
+}
+.leatest-work-content h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #010101;
+    margin-bottom: 30px;
+}
+.leatest-work-content p{
+    font-size: 16px;
+}
+.box{
+    margin: 20px 0;
+    width: 100%;
+    height: 220px;
+}
+.box1{
+    background-color: #10c6fc;
+}
+.box2{
+    background-color: #835aeb;
+}
+.box3{
+    background-color: #835aeb;
+    margin-top: 2px;
+}
+.box4{
+    background-color: #002453;
+}
+.box5{
+    background-color: #ff2b4a;
+}
+.box6{
+    background-color: #002453;
+    margin-top: 2px;
+}
+.box7{
+    background-color: #ff2b4a;
+    margin-top: 2px;
+}
+/* leatest work part css end */
+
+/* testimonail part css start */
+#testimonail-part{
+    padding: 80px 0;
+    background-color: #64cbc0;
+}
+.testimonail-conent .icon{
+    font-size: 60px;
+    color: #317688;
+}
+.testimonail-conent p {
+	padding: 50px 0;
+	font-size: 16px;
+	line-height: 25px;
+	color: #010101;
+    font-weight: 400;
+}
+.signature img{
+    margin-bottom: 20px;
+}
+.signature h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.signature p:nth-child(3){
+    font-size: 14px;
+    font-weight: 400;
+}   
+/* testimonail part css end */
+
+/* contact part css start */
+#contact-part{
+    padding: 80px 0;
+    background-color: #796b7b;
+    background-image: linear-gradient(43deg, #796b7b 0%, #32697d 46%, #7a6b7b 100%);
+}
+.contact-form{
+    background-color: #70637b;
+    background-image: linear-gradient(45deg, #70637b 44%, #4e627c 59%);
+    padding: 40px 20px;
+}
+.contact-form h3{
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.form-custom{
+    background-color: transparent;
+    border-radius: 0;
+    padding: 6px 15px;
+    color: #ffffff !important;
+}
+.form-control:focus {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 6px 15px;
+	outline: none;
+	box-shadow: none;
+}
+.form-custom::placeholder{
+    background-color: transparent;
+    color: #ffffff !important;
+}
+.address-content{
+    padding: 15px 20px;
+    margin-bottom: 37px;
+    background-color: #70637b;
+    background-image: linear-gradient(225deg, #70637b 44%, #4e627c 59%);
+
+}
+.address-content h3{
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 0px;  
+}
+.address-content p{
+    font-size: 16px;
+    color: #ffffff;
+}
+/* contact part css end */
+
+/* footer part css start */
+#footer-part{
+    padding: 40px 0 20px 0 ;
+    background-color: #010101;
+    color: #aaaaaa
+}
+.footer-content a{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+/* footer part css end */

@@ -1,0 +1,181 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 451.98px){
+/* banner part start */
+.banner-text h1 {
+    font-size: 45px;
+}
+.banner-text p {
+    font-size: 18px;
+}
+#banner-part {
+    padding: 150px 0;
+}
+/* banner part end */
+
+/* about part start */
+.btn-custom {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.about-img{
+    text-align: center;
+}
+/* about part end */
+
+/* work part start */
+.work-content h1 {
+    font-size: 30px;
+}
+.work-content p {
+    font-size: 12px;
+}
+.work1{
+    margin-bottom: 10px;
+}
+.work2{
+    margin-bottom: 10px;
+}
+.work3{
+    margin-bottom: 10px;
+}
+.work4{
+    margin-bottom: 10px;
+}
+/* work part end */
+
+/* Education part start */
+.experience{
+    margin-top: 20px;
+}
+/* Education part end */
+
+/* leaest work part start */
+.leatest-work-content h1 {
+    font-size: 30px;
+}
+.leatest-work-content p{
+    font-size: 12px;
+}
+/* leaest work part end */
+
+/* contact part start */
+.address-content{
+    margin-top: 20px;
+}
+/* contact part start */
+}
+
+
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 452px) and (max-width: 575.98px) { 
+/* about part start */
+.btn-custom {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.about-img{
+    text-align: center;
+}
+/* about part end */
+
+/* work part start */
+.work1{
+    margin-bottom: 10px;
+}
+.work2{
+    margin-bottom: 10px;
+}
+.work3{
+    margin-bottom: 10px;
+}
+.work4{
+    margin-bottom: 10px;
+}
+/* work part end */
+
+/* Education part start */
+.experience{
+    margin-top: 20px;
+}
+/* Education part end */
+
+/* contact part start */
+.address-content{
+    margin-top: 20px;
+}
+/* contact part end */
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* about part start */
+.btn-custom {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.about-img{
+    text-align: center;
+}
+/* about part end */
+
+/* work part start */
+.work1{
+    margin-bottom: 10px;
+}
+.work2{
+    margin-bottom: 10px;
+}
+.work3{
+    margin-bottom: 10px;
+}
+.work4{
+    margin-bottom: 10px;
+}
+/* work part end */
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* about part start */
+.btn-custom {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.about-img{
+    text-align: center;
+}
+/* about part end */
+
+/* work part start */
+.work1{
+    margin-bottom: 10px;
+}
+/* work part end */
+
+/* contact part start */
+.address-content {
+	margin-bottom: 28px;
+}
+/* contact part end */
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+        
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+}
